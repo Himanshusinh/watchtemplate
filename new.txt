@@ -1,0 +1,87 @@
+<nav class="nav-bar">
+        <div class="logo">
+            <a href="#" class="blink ">Blink</a>
+            <a href="#" class="mart"> MArt</a>
+        </div>
+        
+       
+        <a href="#" class="Men">Men</a>
+        <a href="#" class="Women">Women</a>
+        
+        
+
+    <div class="contact">
+            <a href="#">Contact us</a>
+        </div>
+    </nav>
+
+
+
+
+
+    .nav-bar{
+    margin-top: 10%;
+    display: flex;
+}
+.logo{
+    margin-left: 10%;
+    display: inline-flex;
+
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+a.blink{
+    color: yellow;
+    text-decoration: none;
+    font-size: 175%;
+}
+a.mart{
+    color: white;
+    text-decoration: none;
+    font-size: 170%;
+}
+
+
+.Men{
+    margin-left: 140%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Men:hover{
+    transform: scale(1.2);
+}
+.Women{
+    margin-left: 15%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Women:hover{
+    transform: scale(1.2);
+}
+
+.contact{
+    margin-left: 140%;
+    font-family: 'Raleway', sans-serif;
+    border: 6px solid orange;
+    border-radius: 25px;
+    border-color: orange;
+    background-color: orange;
+    margin-bottom: 190%;
+}
+
+.contact:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    
+}

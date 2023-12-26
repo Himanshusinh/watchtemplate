@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+
+
+body{
+    margin: auto;
+    padding: auto;
+    background-color: white;
+    
+    
+}
+
+
+.src{
+    position: inherit;
+    width: 1363px;
+    height: 650px;
+}
+
+.nav-bar{
+    position: absolute;
+    top: 7%;
+    display: flex;
+}
+
+.logo{
+    margin-left:15%;
+    display: flex;
+    
+
+
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+a.blink{
+    color: yellow;
+    text-decoration: none;
+    font-size: 175%;
+}
+a.mart{
+    color: white;
+    text-decoration: none;
+    font-size: 170%;
+}
+
+.mw{
+    display: flex;
+    margin-left: 120%;
+}
+
+.Men{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Men:hover{
+    transform: scale(1.2);
+}
+.Women{
+    
+    margin-left: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Women:hover{
+    transform: scale(1.2);
+}
+
+
+.Contact{
+    margin-left:160%;
+    text-decoration: none;
+    border: 5px solid orange;
+    border-radius:23px;
+    background-color: orange;
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    padding: 3px;
+}
+
+.Contact:hover{
+    transform: scale(1.1);
+}
+
+
+.main-text{
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    margin-left: 20%;
+}
+
+.explore{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.watch{
+    font-size:40px ;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+
+.main-text{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    
+}
+
+.main-text .dynamic-text{
+    margin-right: 15px; 
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+
+.dynamic-text li{
+    list-style: none;
+    font-size: 50px;
+    color: orange;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+
+
+.dynamic-text li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 90px;
+}
+
+.dynamic-text li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    background: transparent;
+    height: auto;
+    width: auto;
+    border-left: 2px solid orange;
+    animation: typing 3s steps(10) infinite;
+
+}
+@keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
+
+
+.buy-now-button{
+    
+    position: absolute;
+    bottom: 70%;
+    margin-left: 47%;
+    border: 5px solid burlywood;
+    border-radius: 25px;
+    background-color: burlywood;
+    color: white;
+    padding: 10px 10px;
+    
+}
+
+.buy-now-button:hover{
+    transform: scale(1.2,1.2);
+}
+
+.buy-now-button a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+section{
+    display: inline-flex;
+    border: 5px solid orange;
+    margin-block: 20px;
+    padding: 20px 10px ;
+    margin: 20px 20px;
+    
+}
+
+.watch-1{
+    width: 20%;
+    height: 20%;
+    background-color: antiquewhite;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+
+/* list of watches  */
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px; 
+}
+a{
+    text-decoration: none;
+}
+
+.watch-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0 ,0 , .25),
+    0 10px 10px rgba(0,0, 0,0.22 );
+    transition: .4s;
+    background:#f2f2f2
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px,-8px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin : 0 auto ;
+    display: block;
+}
+
+p{
+    text-align: center;
+    color: b2bec3;
+    padding-top: 0 8px
+}
+
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+li{
+    padding: 5px ;
+}
+
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    /* margin: 3px; */
+}
+
+.checked{
+    color: #ff9f43;
+}
+
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding-top: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.buy-1{
+    background: #2183a2;
+}
+.buy-2{
+    background: #3b3e6e;
+}
+.buy-3{
+    background: #0b0b0b;
+}
+.buy-4{
+    background: #ff9f43;
+}
+
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+
+@media(max-width:750px){
+    .content{
+        width: 100px;
+    }
+}
+
+
+
+
+
+
